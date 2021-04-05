@@ -38,4 +38,12 @@
         android:summary="@string/volume_button_music_control_summary"
         android:defaultValue="0" />
 
+    <!-- Gaming mode -->
+    <com.krypton.settings.preference.SystemSettingMasterSwitchPreference
+        android:key="gaming_mode_enabled"
+        android:title="@string/gaming_title"
+        android:summary="@string/gaming_title_summary"
+        android:fragment="com.krypton.settings.fragment.miscellaneous.GamingModeSettingsFragment"
+        android:defaultValue="0" />
+
 </PreferenceScreen>
