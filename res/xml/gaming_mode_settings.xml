@@ -50,6 +50,13 @@
         android:summary="@string/gaming_mode_quick_start_apps_summary"
         android:fragment="com.krypton.settings.fragment.miscellaneous.QuickStartAppSettingsFragment" />
 
+    <com.krypton.settings.preference.SystemSettingSeekBarPreference
+        android:key="gaming_mode_menu_opacity"
+        android:title="@string/gaming_mode_menu_opacity_title"
+        android:defaultValue="75"
+        android:max="100"
+        settings:min="0" />
+
     <PreferenceCategory
         android:title="@string/gaming_mode_performance">
 
